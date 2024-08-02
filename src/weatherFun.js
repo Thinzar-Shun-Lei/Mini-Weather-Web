@@ -11,6 +11,8 @@ export const getWeatherApi = async function (city) {
       icon: "error",
       title: "No Data",
       text: "The country is not found",
+      confirmButtonColor: "#1e293b",
+      confirmButtonText: "OK",
     });
   }
   return await response.json();
